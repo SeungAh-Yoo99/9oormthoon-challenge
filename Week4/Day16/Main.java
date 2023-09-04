@@ -32,8 +32,6 @@ class Main {
 		// union find로 조상 구하기
 		for(int i = 1; i <= N; i++) find(i);
 		
-		//System.out.println(Arrays.toString(parent));
-		
 		// 연합 개수 세기
 		boolean[] visited2 = new boolean[N + 1];
 		int result = 0;
